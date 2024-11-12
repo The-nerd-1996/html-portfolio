@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+header{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(../pics/pexels-pixabay-159490\ ee.jpg);
+background-size: cover;
+background-position: center;
+}
+.logo{
+width: 95px;
+margin-top: -10px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.navbar ul li::after{
+   content:'';
+   width: 0%;
+   height: 3px;
+   background: #f44336;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.textbox{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textbox h1{
+   font-size: 55px;
+}
+.textbox p{
+margin: 10px 40px 30px 10px;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+
+}
+.textbox a{
+text-decoration: none;
+color: white;
+border: 2px solid white;
+padding: 7px 9px;
+cursor: pointer;
+transition: 0.3s;
+}
+.textbox a:hover{
+background-color: #f44336;
+}
+.textbox a:active{
+  color: #f44336;
+  background-color: white;
+
+}
+.courses{
+width: 80%;
+text-align: center;
+margin: auto;
+padding-top: 100px;
+}
+.int{
+    font-size: 40px;
+    font-weight: 600;
+}
+.courses p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+    color: #777;
+}
+.row{
+    display: flex;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+.coursescol{
+flex-basis: 31%;
+background:#fff3f3;
+padding: 3px;
+border-radius: 10px;
+box-sizing: border-box;
+margin-bottom: 5%;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 7px 0;
+}
+.campus{
+width: 90%;
+margin: auto;
+text-align: center;
+padding-top: 30px;
+}
+.coursescol img{
+    width: 100%;
+    display: block;
+}
+.campus h1{
+    margin-bottom: 15px;
+}
+.sec{
+    overflow: hidden;
+   
+}
+.layer{
+       background:rgba(249, 68, 68, 0.7);
+}
+.layer2{
+   background: #0082C6;  
+
+}
+.facilities{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: -20px;
+
+}
+.facilities h1{
+    margin-bottom: 10px;
+}
+.facilities p{
+    margin-bottom: -10px;
+}
+.comments{
+ width: 80%;
+ margin: auto;
+ padding-top: 5px;
+ text-align: center;
+}
+.comments .row{
+    column-gap: 10px;
+}
+.comenter{
+    flex-basis: 42%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    display: flex;
+    padding: 25px;
+    background: #efe7e7;
+    cursor: pointer;
+}
+.comenter img{
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.comenter p{
+padding: 0;
+}
+.comenter h3{
+    text-align: left;
+    margin-top: 12px;
+}
+.contact{
+
+    width: 80%;
+padding-bottom: 80px;
+padding-top: 60px;
+    margin: 100px auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../pics/pexels-emily-ranquist-493228-1205651.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+}
+.contact h1{
+    margin-bottom: 30px;
+}
+.contact a{
+text-decoration: none;
+color: white;
+border: 2px solid white;
+padding: 7px 9px;
+cursor: pointer;
+transition: 0.3s;
+}
+.contact a:hover{
+background-color: #f44336;
+}
+.contact a:active{
+color: #f44336;
+background-color: white;
+}
+.end{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;    
+}
+.end h1{
+    margin-bottom: 8px;
+}
+.all{
+    font-size: 30px;
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
